@@ -10,10 +10,76 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+header {
+    width: 90%;
+    margin: auto;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 3fr repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    justify-content: center;
+}
+
+.logo {
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: blueviolet;
+}
+
+.menu {
+    background-color: rgb(86, 226, 43);
+    grid-area: 1 / 2 / 2 / 3;
+
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+
+.cart {
+    background-color: rgb(8, 83, 126);
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.avatar img {
+    background-color: rgb(180, 211, 4);
+    grid-area: 1 / 4 / 2 / 5;
+    width: 40px;
+}
+
 section {
+    background-color: rgb(151, 55, 55);
+    width: 90%;
+    height: 600px;
+    margin: auto;
+}
+
+.container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 9px;
+    grid-column-gap: 8px;
     grid-row-gap: 0px;
+}
+
+.left {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.right {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.image-biggest img {
+    width: 100px;
+}
+
+.image-tumb img {
+    width: 60px;
 }
