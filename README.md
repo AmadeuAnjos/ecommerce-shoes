@@ -1,7 +1,5 @@
 # Frontend Mentor - E-commerce product page
 
-![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
-
 ## Welcome! 👋
 
 ![image](https://user-images.githubusercontent.com/53497771/224511532-b3674b33-f7e9-4237-9cef-e8847e53393a.png)
