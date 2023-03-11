@@ -4,6 +4,8 @@
 
 ## Welcome! 👋
 
+![image](https://user-images.githubusercontent.com/53497771/224511532-b3674b33-f7e9-4237-9cef-e8847e53393a.png)
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
