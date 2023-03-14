@@ -80,7 +80,7 @@ header {
 hr {
     margin: auto;
     width: 80%;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 section {
@@ -216,4 +216,51 @@ button {
 
 button img {
     margin-right: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    hr {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .image-biggest {
+        background-color: blue;
+        width: 100%;
+    }
+
+    .image-biggest img {
+        border-radius: 0;
+    }
+
+    .image-tumb {
+        display: none;
+    }
 }
