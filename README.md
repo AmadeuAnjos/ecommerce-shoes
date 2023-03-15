@@ -2,7 +2,7 @@
 
 ## Welcome! 👋
 
-![image](https://user-images.githubusercontent.com/53497771/224511532-b3674b33-f7e9-4237-9cef-e8847e53393a.png)
+![image](https://user-images.githubusercontent.com/53497771/225174645-071373aa-8879-4d3a-b1ff-b5cbd0d057b3.png)
 
 Thanks for checking out this front-end coding challenge.
 
